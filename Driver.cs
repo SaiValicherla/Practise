@@ -9,7 +9,7 @@ namespace Sorting
         static void Main(string[] args)
         {
             int[] arr = new int[] { 78, 55, 45, 98, 13 };
-            arr = QuickSort.SortArray(arr, 0, arr.Length - 1);
+            arr = BubbleSort.Sort(arr);
 
             foreach (var ele in arr)
             {
